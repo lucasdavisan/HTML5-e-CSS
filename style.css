@@ -260,3 +260,27 @@ h3 {
   text-shadow: 1px 1px 3px #888888;
 }
 */
+
+/* #### Aula 23 ####
+.exemplo {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  margin: auto;
+  margin-top: 100px;
+  transition: all 1s linear;
+}
+
+.exemplo:hover {
+  background-color: red;
+}
+
+a {
+  color: #000;
+  transition: all 1s linear;
+}
+
+a:hover {
+  color: #FF0000;
+}
+*/
