@@ -104,19 +104,19 @@ nav a {
   color: #FFF;
 }
 
-.sub-menu {
-  display: block;
+.enter-sub-menu, .sports-sub-menu, .news-sub-menu {
+  display: none;
   position: absolute;
   width: 100px;
 }
 
-.sub-menu li a {
+.enter-sub-menu li a, .sports-sub-menu li a, .news-sub-menu li a {
   padding: 10px;
   background-color: red;
 }
 
-.sub-menu li a {
-  display: none;
+.enter-sub-menu li a, .sports-sub-menu li a, .news-sub-menu li a {
+  display: block;
 }
 
 
