@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
+  background-color: #FFF;
 }
 
 .center {
@@ -152,9 +153,16 @@ nav a {
 
 #news-description p {
   margin: 8px;
+  color: rgb(26, 26, 26);
+}
+
+article {
+  display: inline-block;
+  max-width: 750px;
 }
 
 .main-content {
+  display: inline-block;
   max-width: 750px;
 }
 
@@ -275,3 +283,150 @@ nav a {
   margin-left: 15px;
   color: rgb(141, 138, 138);
 }
+
+aside {
+  width: 275px;
+  display: block;
+  float: right;
+}
+
+.secondary-content {
+  margin-top: 15px;
+  width: 275px;
+  height: 100%;
+  display: block;
+  float: right;
+}
+
+.social-media {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 80px;
+  border: 1px solid #CCC;
+}
+
+.social-media h2 {
+  margin-top: 8px;
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(46, 46, 46);
+  padding-left: 5px;
+  font-weight: normal;
+}
+
+#social-media-title {
+  width: 100%;
+  height: 30px;
+  background-color: #DDD;
+  border-bottom: 1px solid #CCC;
+}
+
+#social-media-content {
+  width: 100%;
+  height: 50px;
+}
+
+.social-media-buttons {
+  display: inline-block;
+  margin-top: 12px;
+  margin-left: 67px;
+  align-items: center;
+}
+
+.latest-news-section {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 530px;
+  border: 1px solid #CCC;
+}
+
+.latest-news-section h2 {
+  margin-top: 8px;
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(46, 46, 46);
+  padding-left: 5px;
+  font-weight: normal;
+}
+
+#latest-news-title {
+  width: 100%;
+  height: 30px;
+  background-color: #DDD;
+  border-bottom: 1px solid #CCC;
+}
+
+.latest-news-content p {
+  font-size: 15px;
+  padding: 15px;
+  padding-top: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #CCC;
+  color: rgb(26, 26, 26);
+}
+
+.advertising-section {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 186px;
+  border: 1px solid #CCC;
+}
+
+.advertising-section h2 {
+  margin-top: 8px;
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(46, 46, 46);
+  padding-left: 5px;
+  font-weight: normal;
+}
+
+#advertising-title {
+  width: 100%;
+  height: 30px;
+  background-color: #DDD;
+  border-bottom: 1px solid #CCC;
+}
+
+.advertising-content img {
+  width: 275px;
+  height: 155px;
+}
+/*
+.follow-us-section {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 186px;
+  border: 1px solid #CCC;
+}
+
+.follow-us-section h2 {
+  margin-top: 8px;
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(46, 46, 46);
+  padding-left: 5px;
+  font-weight: normal;
+}
+
+#follow-us-title {
+  width: 100%;
+  height: 30px;
+  background-color: #DDD;
+  border-bottom: 1px solid #CCC;
+}
+
+.follow-us-content {
+  width: 275px;
+  height: 155px;
+  background-color: rgb(46, 46, 46);
+}
+*/
